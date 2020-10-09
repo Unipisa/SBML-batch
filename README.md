@@ -23,7 +23,7 @@ To install SBML-batch you need the following Python's libraries:
 - **libRoadRunner** with a version 1.5.4 or higher
 
 After installing the previous libraries, install SBML-batch:
-`pip install SBML-batch`
+`pip install SBML-batch.zip`
 
 
 
@@ -230,7 +230,7 @@ Using this module you can study the role of a modifier in a reaction and create 
     - `path` is the directory with the set of models;
     - `pathResult` is the directory where Petri nets will be saved;
 - `nTest` and `valueIncrease`, because this method calls the method `functionality`.
-    
+  
 3. **`createOnePetriNet(rr, path, file, pathResult, nTest, valueIncrease)`**
     This method creates Petri net of one model. It takes one more argument than the previous one: `file`, that represents file of which will be created the Petri net.
 
